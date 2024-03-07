@@ -1,0 +1,103 @@
+body{
+    background-color:black;
+    color: white;
+    height: 98vh;
+    width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   overflow: hidden;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 80%;
+    width: 80%;
+   
+    
+}
+.input1{
+  height: 70%;
+  
+}
+input{
+    outline:none;
+    border:none;
+    border-bottom: 1px solid white;
+    background:none;
+    
+}
+#name,#email,#password,#confirmpassword,#DOB{
+  box-sizing: border-box;  
+  width:70%;
+    color:white;
+    
+    display: flex;
+   
+    padding: 4px;
+    font-size: 1.1em;
+}
+input[type=radio] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  input[type=radio]:checked::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 4px;
+    height: 9px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate
+  }
+  input[type=checkbox]:checked::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 4px;
+    height: 9px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+    display: flex;
+  }
+  input[type=checkbox] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    
+    
+  }
+  .checkbox-main-block{
+    display: flex;
+    align-items: center;
+   
+  } 
+  #conditions{
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .button{
+    height: 40px;
+    width: 120px;
+    border-radius: none;
+  }
